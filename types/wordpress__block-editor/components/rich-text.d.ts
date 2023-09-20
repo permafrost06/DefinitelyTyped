@@ -66,6 +66,7 @@ declare namespace RichText {
          * if provided.
          */
         value: string;
+        withoutInteractiveFormatting?: boolean | undefined;
         wrapperClassName?: string | undefined;
     }
     interface ContentProps<T extends keyof HTMLElementTagNameMap> extends HTMLProps<T> {

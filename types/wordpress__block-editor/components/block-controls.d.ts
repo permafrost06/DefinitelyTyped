@@ -4,6 +4,7 @@ import { FC, ReactNode } from 'react';
 declare namespace BlockControls {
     interface Props extends Pick<Toolbar.Props, 'controls'> {
         children: ReactNode;
+        group?: string;
     }
 }
 declare const BlockControls: {

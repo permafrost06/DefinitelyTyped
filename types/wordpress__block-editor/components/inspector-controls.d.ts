@@ -4,6 +4,8 @@ import { FC, ReactNode } from 'react';
 declare namespace InspectorControls {
     interface Props {
         children: ReactNode;
+        group?: string;
+        resetAllFilter?: boolean;
     }
 }
 declare const InspectorControls: {
