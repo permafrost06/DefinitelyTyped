@@ -9,6 +9,9 @@ declare namespace AlignmentToolbar {
             title: string;
         }> | undefined;
         children?: never | undefined;
+        describedBy?: string | undefined;
+        isCollapsed?: boolean | undefined;
+        label?: string | undefined;
         value: string | undefined;
         onChange(newValue: string | undefined): void;
     }
